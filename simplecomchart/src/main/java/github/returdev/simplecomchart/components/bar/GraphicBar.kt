@@ -38,7 +38,7 @@ import github.returdev.simplecomchart.components.bar.bubble.SelectedGraphicBarBu
 import github.returdev.simplecomchart.components.bar.model.GraphicBarData
 import github.returdev.simplecomchart.components.bar.model.GraphicBarFixedMeasures
 import github.returdev.simplecomchart.core.extension.noRippleClickable
-import github.returdev.simplecomchart.core.graph.BarChartColors
+import github.returdev.simplecomchart.core.model.graph.BarChartColors
 
 
 /**
