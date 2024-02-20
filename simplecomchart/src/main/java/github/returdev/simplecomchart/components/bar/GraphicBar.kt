@@ -38,7 +38,7 @@ import github.returdev.simplecomchart.components.bar.bubble.SelectedGraphicBarBu
 import github.returdev.simplecomchart.components.bar.model.GraphicBarData
 import github.returdev.simplecomchart.components.bar.model.GraphicBarFixedMeasures
 import github.returdev.simplecomchart.core.extension.noRippleClickable
-import github.returdev.simplecomchart.core.graph.GraphicBarChartColors
+import github.returdev.simplecomchart.core.graph.BarChartColors
 
 
 /**
@@ -47,7 +47,7 @@ import github.returdev.simplecomchart.core.graph.GraphicBarChartColors
  * @param modifier The modifier to be applied to the GraphicBar. Default is Modifier.
  * @param contentHeightDpPerUnit The height of the content per unit.
  * @param graphicBarData The data representing the graphic bar.
- * @param colors The [GraphicBarChartColors] object that defines the colors for the graphic bar.
+ * @param colors The [BarChartColors] object that defines the colors for the graphic bar.
  * @param bubbleTextStyle The [TextStyle] object that defines the text style for the bubble content.
  * @param barNameTextStyle The [TextStyle] object that defines the text style for the bar name.
  * @param isSelected A function that returns a boolean indicating whether the bar is selected.
@@ -58,7 +58,7 @@ fun GraphicBar(
     modifier : Modifier = Modifier,
     contentHeightDpPerUnit : Dp,
     graphicBarData : GraphicBarData,
-    colors : GraphicBarChartColors,
+    colors : BarChartColors,
     bubbleTextStyle : TextStyle,
     barNameTextStyle : TextStyle,
     isSelected : Boolean,

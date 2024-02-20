@@ -18,7 +18,7 @@ import androidx.compose.ui.graphics.Color
  * @property onGoalIndicatorColor The color of the objective text.
  */
 @Immutable
-class GraphicBarChartColors internal constructor(
+class BarChartColors internal constructor(
     internal val backgroundColor: Color,
     internal val onBackgroundColor: Color,
     internal val goalIndicatorColor: Color,
