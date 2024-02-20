@@ -1,13 +1,58 @@
 package github.returdev.simplecomchart.components.bar.bubble
 
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.DpSize
 
+
+/**
+ * Composable function representing the bubble part of the selected graphic bar bubble.
+ *
+ * @param text The text content to be displayed inside the bubble.
+ * @param bubbleSize The size of the bubble.
+ * @param bubbleRoundedCornerShape The rounded corner shape of the bubble.
+ * @param bubbleColor The background color of the bubble.
+ * @param onBubbleColor The color of the text content inside the bubble.
+ * @param textStyle The [TextStyle] defining the text style for the content inside the bubble.
+ */
+@Composable
+private fun Bubble(
+    text : String,
+    bubbleSize: DpSize,
+    bubbleRoundedCornerShape : RoundedCornerShape,
+    bubbleColor : Color,
+    onBubbleColor : Color,
+    textStyle : TextStyle
+) {
+
+    Box(
+        modifier = Modifier
+            .size(bubbleSize)
+            .clip(bubbleRoundedCornerShape)
+            .background(bubbleColor),
+        contentAlignment = Alignment.Center
+    ){
+
+        Text(
+            text = text,
+            color = onBubbleColor,
+            style = textStyle
+        )
+
+    }
+
+}
 
 /**
  * Composable function representing the tail part of the selected graphic bar bubble.
