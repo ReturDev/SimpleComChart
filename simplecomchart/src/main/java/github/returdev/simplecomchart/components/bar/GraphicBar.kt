@@ -54,7 +54,7 @@ import github.returdev.simplecomchart.core.model.graph.BarChartColors
  * @param onClick The callback to be invoked when the bar is clicked.
  */
 @Composable
-fun GraphicBar(
+internal fun GraphicBar(
     modifier : Modifier = Modifier,
     contentHeightDpPerUnit : Dp,
     graphicBarData : GraphicBarData,
