@@ -1,4 +1,4 @@
-package github.returdev.simplecomchart.components.core.graph
+package github.returdev.simplecomchart.core.graph
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color

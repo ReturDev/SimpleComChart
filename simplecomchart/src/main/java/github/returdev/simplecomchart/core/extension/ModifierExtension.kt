@@ -1,4 +1,4 @@
-package github.returdev.simplecomchart.components.core.extension
+package github.returdev.simplecomchart.core.extension
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource

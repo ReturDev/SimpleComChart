@@ -37,8 +37,8 @@ import androidx.compose.ui.unit.dp
 import github.returdev.simplecomchart.components.bar.bubble.SelectedGraphicBarBubble
 import github.returdev.simplecomchart.components.bar.model.GraphicBarData
 import github.returdev.simplecomchart.components.bar.model.GraphicBarFixedMeasures
-import github.returdev.simplecomchart.components.core.extension.noRippleClickable
-import github.returdev.simplecomchart.components.core.graph.GraphicBarChartColors
+import github.returdev.simplecomchart.core.extension.noRippleClickable
+import github.returdev.simplecomchart.core.graph.GraphicBarChartColors
 
 
 /**
