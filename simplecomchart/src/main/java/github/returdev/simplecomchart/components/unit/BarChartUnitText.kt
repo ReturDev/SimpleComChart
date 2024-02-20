@@ -17,7 +17,7 @@ import androidx.compose.ui.text.TextStyle
  * @param textStyle The style of the unit text.
  */
 @Composable
-internal fun GraphicChartUnitText(
+internal fun BarChartUnitText(
     modifier: Modifier = Modifier,
     unit: String,
     textColor: Color,
