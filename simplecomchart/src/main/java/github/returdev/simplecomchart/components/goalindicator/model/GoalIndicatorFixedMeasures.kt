@@ -17,19 +17,19 @@ object GoalIndicatorFixedMeasures {
      * The size of the goal indicator.
      * It is measured in density-independent pixels (dp) and is represented as a DpSize object.
      */
-    val objectiveIndicatorSize = DpSize(55.dp, 20.dp)
+    val goalIndicatorSize = DpSize(55.dp, 20.dp)
 
     /**
      * The corner radius of the goal indicator.
      * It is measured in density-independent pixels (dp).
      */
-    val objectiveIndicatorCornerRadius = 5.dp
+    val goalIndicatorCornerRadius = 5.dp
 
     /**
      * The stroke width of the goal indicator.
      * It is measured in density-independent pixels (dp).
      */
-    val objectiveIndicatorStrokeWidth = 2.dp
+    val goalIndicatorStrokeWidth = 2.dp
 
     /**
      * This function calculates the Y-axis position of the goal indicator.
@@ -46,7 +46,7 @@ object GoalIndicatorFixedMeasures {
         contentHeightDpPerUnit: Dp,
         goalValue: Float
     ): Dp {
-        return totalHeight - (contentHeightDpPerUnit * goalValue) + (topContentPadding - objectiveIndicatorSize.height / 2)
+        return totalHeight - (contentHeightDpPerUnit * goalValue) + (topContentPadding - goalIndicatorSize.height / 2)
     }
 
 }

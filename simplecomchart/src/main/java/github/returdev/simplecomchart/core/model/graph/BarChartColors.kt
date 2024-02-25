@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.Color
  * @property onSelectedBarColor The color of the selected bars when active.
  * @property barNameColor The color of the bar names.
  * @property selectedBarNameColor The color of the selected bar names.
- * @property goalIndicatorColor The color of the objective indicator.
- * @property onGoalIndicatorColor The color of the objective text.
+ * @property goalIndicatorColor The color of the goal indicator.
+ * @property onGoalIndicatorColor The color of the goal text.
  */
 @Immutable
 class BarChartColors internal constructor(

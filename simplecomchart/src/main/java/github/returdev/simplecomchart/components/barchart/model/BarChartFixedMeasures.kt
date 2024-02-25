@@ -40,7 +40,7 @@ internal object BarChartFixedMeasures {
     val yAxisLinesStartPadding = 4.dp
 
     /** Start Y-axis space for the chart. */
-    val startYAxisSpace = goalIndicatorMeasures.objectiveIndicatorSize.width
+    val startYAxisSpace = goalIndicatorMeasures.goalIndicatorSize.width
 
     /**
      * Calculates the padding needed at the top of the content area to center the content vertically.

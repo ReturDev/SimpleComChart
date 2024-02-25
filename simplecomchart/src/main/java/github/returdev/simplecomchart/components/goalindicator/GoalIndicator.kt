@@ -54,8 +54,8 @@ internal fun GoalIndicator(
 
         Box(
             modifier = Modifier
-                .size(measures.objectiveIndicatorSize)
-                .clip(RoundedCornerShape(measures.objectiveIndicatorCornerRadius))
+                .size(measures.goalIndicatorSize)
+                .clip(RoundedCornerShape(measures.goalIndicatorCornerRadius))
                 .background(goalIndicatorColor),
             contentAlignment = Alignment.Center
         ) {
@@ -74,7 +74,7 @@ internal fun GoalIndicator(
                         start = Offset(0f, 0f),
                         end = Offset(size.width, 0f),
                         color = goalIndicatorColor,
-                        strokeWidth = measures.objectiveIndicatorStrokeWidth.toPx(),
+                        strokeWidth = measures.goalIndicatorStrokeWidth.toPx(),
                         pathEffect = PathEffect.dashPathEffect(floatArrayOf(10f,10f))
                     )
                 }
