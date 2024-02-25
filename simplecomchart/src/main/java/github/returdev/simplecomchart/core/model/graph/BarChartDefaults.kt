@@ -58,7 +58,7 @@ object BarChartDefaults {
      *
      * @param barChartBubbleStyle The style for the bar chart bubble.
      * @param barChartNameStyle The style for the bar chart name.
-     * @param objectiveIndicatorStyle The style for the objective indicator.
+     * @param goalIndicatorStyle The style for the goal indicator.
      * @param graphicValueIndicatorStyle The style for the graphic value indicator.
      *
      * @return The [BarChartTextStyles] object with the default text styles.
@@ -68,13 +68,13 @@ object BarChartDefaults {
         barChartBubbleStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 10.sp),
         barChartNameStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 13.sp),
         graphicUnitStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 11.sp, fontWeight = FontWeight.SemiBold),
-        objectiveIndicatorStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 11.sp),
+        goalIndicatorStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 11.sp, fontWeight = FontWeight.Bold),
         graphicValueIndicatorStyle : TextStyle = LocalTextStyle.current.copy(fontSize = 12.sp, fontWeight = FontWeight.Bold),
     ) = BarChartTextStyles(
         barChartBubbleStyle,
         barChartNameStyle,
         graphicUnitStyle,
-        objectiveIndicatorStyle,
+        goalIndicatorStyle,
         graphicValueIndicatorStyle
     )
 
